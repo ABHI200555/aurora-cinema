@@ -10,8 +10,8 @@ app.use(express.json());
 
 // Load movies DB using __dirname to ensure paths work on Vercel
 let movies = [];
-const moviesPath = path.join(__dirname, '..', 'backend', 'data', 'movies.json');
-const usersPath = path.join(__dirname, '..', 'backend', 'data', 'users.json');
+const moviesPath = path.join(__dirname, 'data', 'movies.json');
+const usersPath = path.join(__dirname, 'data', 'users.json');
 
 try {
     if (fs.existsSync(moviesPath)) {
