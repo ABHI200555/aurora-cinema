@@ -5,7 +5,7 @@ import AuthModal from './components/AuthModal';
 import AiWizard from './components/AiWizard';
 import ActorProfile from './components/ActorProfile';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = '/api';
 
 function App() {
   const [movies, setMovies] = useState([]);
