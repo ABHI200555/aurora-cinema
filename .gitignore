@@ -1,0 +1,59 @@
+# Root .gitignore for Aurora Cinema
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp*
+.pnp.js
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vite
+dist/
+dist-ssr/
+*.local
+
+# Java (Spring Boot)
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+.mvn/wrapper
+.factorypath
+.project
+.settings/
+.classpath
+
+# IDE / Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Misc
+temp/
+tmp/
+coverage/
+.nyc_output
+.eslintcache
